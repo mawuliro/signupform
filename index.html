@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Sign Up form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="content-container container-1">
+            <div class="content-1">
+                <img src="images/odin-lined.png" alt="Odin head image">
+                <span>ODIN</span>
+            </div>
+        </div>
+        <div class="content-container container-2">
+            <div class="content-2">
+                <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign Up now to start.</p><br><p>You know you want to.</p>
+            </div>
+            <div class="content-2 forms">
+                <h1>Let's do this!</h1>
+                <form action="#" method="post">
+                    <div class="input-fields">
+                        <label for="first-name">FIRST NAME</label>
+                        <input type="text" id="first-name" required>
+                    </div>
+                    <div class="input-fields">
+                        <label for="last-name">LAST NAME</label>
+                        <input type="text" id="last-name" required>
+                    </div>
+                    <div class="input-fields">
+                        <label for="email">EMAIL</label>
+                        <input type="email" id="email" required>
+                    </div>
+                    <div class="input-fields">
+                        <label for="phone">PHONE NUMBER</label>
+                        <input type="tel" id="phone" required>
+                    </div>
+                    <div class="input-fields">
+                        <label for="password">PASSWORD</label>
+                        <input id="password" type="password" [a-z0-5]{8,} required>
+                    </div>
+                    <div class="input-fields">
+                        <label for="confirm">CONFIRM PASSWORD</label>
+                        <input id="confirm" type="password" [a-z0-5]{8,} required>
+                    </div>   
+                </form>
+            </div>
+            <div class="content-2 submission">
+                <button type="submit">Create an Account</button>
+                <p>Already have an Account? <span>Log in</span></p>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
