@@ -110,3 +110,30 @@ form {
     font-size: 25px;
     font-family: 'Times New Roman', Times, serif;
 }
+
+.content-1 img {
+    display: inline-block;
+    height: 100%;
+    margin: auto auto auto 15%;
+}
+
+.content-1 span {
+    display: inline-block;
+    font-family: Norse;
+    font-weight: bold;
+    font-size: 100px;
+    margin: auto;
+    margin-bottom: 5px;
+    color: white;
+}
+
+button {
+    height: 25px;
+    display: inline-block;
+    margin-left: 25px;
+    border: 1px solid blue;
+    color: black;
+    border-radius: 5px;
+    
+}
+
